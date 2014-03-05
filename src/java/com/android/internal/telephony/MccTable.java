@@ -190,7 +190,7 @@ public final class MccTable
             if (mcc != 0) {
                 setTimezoneFromMccIfNeeded(context, mcc);
                 locale = getLocaleFromMcc(context, mcc);
-                setWifiCountryCodeFromMcc(context, mcc);
+                //setWifiCountryCodeFromMcc(context, mcc);
             }
             try {
                 Configuration config = new Configuration();
